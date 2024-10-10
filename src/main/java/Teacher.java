@@ -6,6 +6,7 @@ public class Teacher extends User {
     Scanner scanner=new Scanner(System.in);
 
 
+
     public Teacher(String username, String password) {
 
 
