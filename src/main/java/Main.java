@@ -37,6 +37,7 @@ public class Main {
                             int choiceOfTeacher = scanner.nextInt();
                             scanner.nextLine();
                             if (choiceOfTeacher == 1) {
+
                                 teacher.addingATask();
                             }  else if (choiceOfTeacher == 2) {
                                 teacher.GradingStudent();
@@ -84,7 +85,7 @@ public class Main {
                         while (isTrue1) {
                             systemAdministrator.menu();
                             int choiceOfSystemAdministrator = scanner.nextInt();
-                            scanner.nextLine();
+
 
                             if (choiceOfSystemAdministrator == 1) {
                                 systemAdministrator.AddingNewProfile();

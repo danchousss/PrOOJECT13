@@ -212,7 +212,7 @@ public class SystemAdministrator extends User {
     }
     public void deletingCourse(){
         try (Connection connection = MyJDBC.getConnection();
-             PreparedStatement preparedStatement = connection.prepareStatement("DELETE FROM cource WHERE COURSEID = ?");
+             PreparedStatement preparedStatement = connection.prepareStatement("DELETE FROM cource WHERE ID = ?");
              Scanner scanner = new Scanner(System.in)) {
 
             System.out.print("Enter the ID of the course to delete: ");

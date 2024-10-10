@@ -1,5 +1,6 @@
 import java.sql.*;
 import java.util.*;
+
 public class Student extends User {
     Scanner scanner=new Scanner(System.in);
 
@@ -57,6 +58,7 @@ public class Student extends User {
     public  void viewingGrades() {
         try {
             Connection connection = MyJDBC.getConnection();
+            //sdgit
 
             Statement statement = connection.createStatement();
 
