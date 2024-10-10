@@ -4,6 +4,7 @@ public class CuratorOfPractice extends User {
     public CuratorOfPractice(String username, String password) {
 
         super(username, password);
+
     }
     public void makingAListOfStudents(){
         try {
